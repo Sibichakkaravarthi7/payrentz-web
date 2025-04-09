@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.payrentz",
+        "sha256_cert_fingerprints": ["B8:C9:E9:6F:44:DD:36:6F:7E:A2:4B:5B:CE:91:18:55:62:46:CB:6F:A1:B4:D9:0C:17:99:AA:E6:32:90:52:CC"]
+      }
+    }]

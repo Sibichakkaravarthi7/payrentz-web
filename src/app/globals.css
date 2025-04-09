@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-lightgray: #858585;
+}
+
+.nav-scroll-container {
+  overflow: -webkit-paged-x !important;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  /* For Firefox */
+  scrollbar-color: transparent transparent;
+  /* For Firefox */
+}
+
+.nav-scroll-container::-webkit-scrollbar {
+  height: 0px;
+}
+
+.nav-scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.bg-blue-gradient {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #3e88d7 0%, #236bb7 100%);
+}
+
+.bg-red-gradient {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ec2027 0%, #d91b21 100%);
+}
+
+.numeric-variant {
+  font-variant-numeric: lining-nums proportional-nums;
+}
+.markdown-preview table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.markdown-preview th,
+.markdown-preview td {
+  border: 1px solid black; /* Adjust color if needed */
+  padding: 8px;
+  text-align: left;
+}
